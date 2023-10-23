@@ -3,12 +3,14 @@
 Bucles que recorren un espacio de datos con centinelas
 
 ```C
+#define END -1
 main:: 
- v[10] = {11,22,33,44,55,66,77,88,99};     // 1
- v[10] = {11,22,33,44,END,66,77,88,99};    // 2
- v[10] = {END,22,33,44,55,66,77,88,99};    // 3
- v[10] = {11,22,33,44,55,66,77,88,99,END}; // 4 
- v[10] = {11,END};                         // 5
+// vector de enteros positivos
+v[10] = {11,22,33,44,55,66,77,88,99};     // 1
+v[10] = {11,22,33,44,END,66,77,88,99};    // 2
+v[10] = {END,22,33,44,55,66,77,88,99};    // 3
+v[10] = {11,22,33,44,55,66,77,88,99,END}; // 4 
+v[10] = {11,END};                         // 5
 ```
 
 *programar un bucle que lea el vector y escriba los datos validos y diga cuantos son*
