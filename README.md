@@ -39,12 +39,17 @@ pascal, N.Wirth
 ## pensando en pseudocodigo nuestro problema
 
 ### V0
-_Recorro el vector desde el comienzo hasta su final (fisico o logico) y_ 
-_    voy contando lo que me encuentro y_ 
-_    lo voy imprimiendo_ 
-_Al final, digo cuanto he contado_ 
+
+```bash
+Recorro el vector desde el comienzo hasta su final (fisico o logico) y
+    voy contando lo que me encuentro y
+    lo voy imprimiendo
+Al final, digo cuanto he contado
+```
 
 ### V1
+
+```bash
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -52,8 +57,11 @@ si el tam es 0 digo cuenta: 0
     voy contando lo que me encuentro y
     lo voy imprimiendo
 digo cuenta: X
+```
 
 ### V2
+
+```bash
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -61,8 +69,11 @@ mientras (no **estoy-en-el-final**) (fisico o logico) y
     voy contando lo que me encuentro y
     lo voy imprimiendo
 digo cuenta: X
+```
 
 ### V3
+
+```bash
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -70,8 +81,11 @@ mientras (no **enFinal**) (fisico o logico) y
     voy contando lo que me encuentro y
     lo voy imprimiendo
 digo cuenta: X
+```
 
 ### V4
+
+```bash
 defino FALSO 0
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
@@ -81,9 +95,11 @@ mientras (no **enFinal** ni fisico ni logico) y
     voy contando lo que me encuentro y
     lo voy imprimiendo
 digo cuenta: X
+```
 
+### V5
 
-V4
+```bash
 #define FALSO 0
 Recorro el vector:
 if (TAMV(v) == 0)
@@ -93,9 +109,9 @@ while ( ! (**enFinal** ni fisico ni logico)) y
     contador++ // voy contando lo que me encuentro y
     printf("%d, ", dato); // lo voy imprimiendo
 printf("cuenta: %d", X);  // digo cuenta: X
+```
 
-
-V5
+### V6
 #define END -1
 #define FALSO 0
 if (TAMV(v) == 0)
@@ -109,7 +125,7 @@ while ( ! (**enFinal** ni fisico ni logico)) y
     if (actual == END) enFINAL = TRUE // fin logico
     i++;
 printf("cuenta: %d", X);  // digo cuenta: X
-
+```
 
 
 
