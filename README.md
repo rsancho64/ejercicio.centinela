@@ -38,11 +38,13 @@ pascal, N.Wirth
 
 ## pensando en pseudocodigo nuestro problema
 
-V0
-Recorro el vector desde el comienzo hasta su final (fisico o logico) y voy contando lo que me encuentro y lo voy imprimiendo
-Al final, digo cuanto he contado
+### V0
+_Recorro el vector desde el comienzo hasta su final (fisico o logico) y_ 
+_    voy contando lo que me encuentro y_ 
+_    lo voy imprimiendo_ 
+_Al final, digo cuanto he contado_ 
 
-V1
+### V1
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -51,7 +53,7 @@ si el tam es 0 digo cuenta: 0
     lo voy imprimiendo
 digo cuenta: X
 
-V2
+### V2
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -60,7 +62,7 @@ mientras (no **estoy-en-el-final**) (fisico o logico) y
     lo voy imprimiendo
 digo cuenta: X
 
-V3
+### V3
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
 // aserto: tam no es 0
@@ -69,8 +71,7 @@ mientras (no **enFinal**) (fisico o logico) y
     lo voy imprimiendo
 digo cuenta: X
 
-
-V4
+### V4
 defino FALSO 0
 Recorro el vector:
 si el tam es 0 digo cuenta: 0
