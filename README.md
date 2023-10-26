@@ -112,6 +112,8 @@ printf("cuenta: %d", X);  // digo cuenta: X
 ```
 
 ### V6
+
+```bash
 #define END -1
 #define FALSO 0
 if (TAMV(v) == 0)
